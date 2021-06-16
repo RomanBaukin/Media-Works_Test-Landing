@@ -1,0 +1,33 @@
+.registration {
+  margin-bottom: 185px;
+
+  &__banner {
+    height: 371px;
+    border-radius: 10px;
+    background: linear-gradient(90deg, #2D1686 0%, #4E33B5 100%);
+  }
+}
+
+.banner {
+  position: relative;
+  padding: 70px;
+
+  &__title {
+    position: relative;
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 45px;
+    color: $light-text-color;
+    max-width: 558px;
+    margin-bottom: 46px;
+    z-index: 10;
+  }
+
+  img {
+    position: absolute;
+    right: 0;
+    top: 19px;
+    max-width: 730px;
+    max-height: 340px;
+  }
+}

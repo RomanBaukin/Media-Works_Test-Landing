@@ -18,12 +18,14 @@
 @import "blocks/registration";
 @import "base/media";
 
+* {
+  box-sizing: border-box;
+}
+
 body {
   font-family: "Whitney", sans-serif;
   font-weight: 325;
   font-size: 18px;
-  display: flex;
-
 }
 
 h1,

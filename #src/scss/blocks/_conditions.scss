@@ -1,0 +1,47 @@
+.conditions {
+  margin-bottom: 130px;
+
+  &__title {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 52px;
+    color: $dark-title-color;
+    margin-bottom: 50px;
+  }
+
+  &__cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+
+  &__card {
+    flex: 1 1 calc((100% / 2) - 30px);
+  }
+}
+
+.card {
+  display: flex;
+  background: #F6F5F9;
+  border-radius: 6px;
+  padding: 21px 10px 21px 40px;
+
+
+  &__title {
+    margin: 22px 0;
+    font-family: "SegoeUI";
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 29px;
+    color: $dark-title-color;
+  }
+
+  &__text {
+    max-width: 280px;
+    font-family: "SegoeUI";
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 142%;
+    color: $dark-text-color;
+  }
+}
