@@ -1,9 +1,309 @@
-@media (max-width: 1199.98px) {}
+@media (max-width: 1199.98px) {
+  .container {
+    max-width: 90%;
+  }
 
-@media (max-width: 991.98px) {}
+  .description {
+    &__img {
+      width: 70%;
+    }
+  }
 
-@media (max-width: 767.98px) {}
+  .banner {
+    img {
+      max-width: 90%;
+      max-height: 90%;
+    }
+  }
+
+  .popup {
+    &__content {
+      width: 400px;
+      min-height: 400px;
+      padding: 40px;
+    }
+  }
+
+  .btn-sign-in {
+    width: 100%;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .header {
+    height: 525px;
+    margin-bottom: 100px;
+
+    &__logo {
+      width: 100px;
+    }
+
+    &__links {
+      font-size: 14px;
+    }
+
+    &__main {
+      margin-bottom: 40px;
+    }
+  }
+
+  .account {
+    margin-left: 50px;
+  }
+
+  .description {
+    &__text {
+      width: 390px;
+
+      h1 {
+        font-size: 40px;
+        padding: 0 0 20px;
+      }
+
+      p {
+        font-size: 20px;
+        margin-bottom: 35px;
+      }
+    }
+  }
+
+  .conditions {
+    margin-bottom: 100px;
+
+    &__title {
+      font-size: 32px;
+      margin-bottom: 40px;
+    }
+  }
+
+  .card {
+    &__title {
+      font-size: 18px;
+      margin: 10px 0;
+    }
+
+    &__text {
+      font-size: 12px;
+    }
+  }
+
+  .registration {
+    margin-bottom: 100px;
+
+    &__banner {
+      height: 330px;
+    }
+  }
+
+  .banner {
+    &__title {
+      font-size: 24px;
+      margin-bottom: 35px;
+    }
+  }
+
+  .popup {
+    &__form {
+      h3 {
+        font-size: 28px;
+        line-height: 120%;
+        margin-bottom: 20px;
+      }
+
+      label {
+        div {
+          font-size: 14px;
+        }
+
+        input {
+          font-size: 14px;
+          padding: 10px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 767.98px) {
+  .header {
+    height: 470px;
+    margin-bottom: 70px;
+  }
+
+  .description {
+    &__text {
+      h1 {
+        font-size: 28px;
+      }
+
+      p {
+        font-size: 14px;
+      }
+    }
+  }
+
+  button {
+    height: 40px;
+    padding: 10px 30px;
+    font-size: 14px;
+  }
+
+  .btn-registration {
+    width: 200px;
+  }
+
+  .conditions {
+    margin-bottom: 70px;
+
+    &__title {
+      font-size: 24px;
+    }
+  }
+
+  .card {
+    &__title {
+      font-size: 16px;
+      line-height: 22px;
+    }
+  }
+
+  .registration {
+    margin-bottom: 70px;
+
+    &__banner {
+      height: 250px;
+    }
+  }
+
+  .banner {
+    &__title {
+      font-size: 18px;
+      line-height: 30px;
+    }
+  }
+
+  .popup {
+    &__content {
+      width: 300px;
+      min-height: 370px;
+      padding: 30px;
+    }
+
+    &__form {
+      h3 {
+        font-size: 18px;
+      }
+    }
+  }
+}
 
 // @media(max-width: 767.98px) and (orientation: landscape) {}
 
-@media (max-width: 576.98px) {}
+@media (max-width: 576.98px) {
+  .header {
+    height: 300px;
+    margin-bottom: 40px;
+
+    &__logo {
+      width: 60px;
+    }
+
+    &__links {
+      font-size: 12px;
+    }
+
+    &__main {
+      margin-bottom: 10px;
+    }
+  }
+
+  .description {
+    &__text {
+      width: 90%;
+
+      h1 {
+        font-size: 22px;
+        padding: 0 0 10px;
+      }
+
+      p {
+        margin-bottom: 15px;
+        line-height: 20px;
+      }
+    }
+
+    &__img {
+      display: none;
+    }
+  }
+
+  .btn-registration {
+    margin: 0 auto;
+  }
+
+  .account {
+    margin-left: 20px;
+
+    img {
+      width: 15px;
+      height: 15px;
+    }
+
+    span {
+      margin-left: 5px;
+    }
+  }
+
+  .conditions {
+    margin-bottom: 40px;
+
+    &__title {
+      font-size: 18px;
+      line-height: 24px;
+      margin-bottom: 20px;
+    }
+
+    &__cards {
+      gap: 20px;
+    }
+
+    &__card {
+      flex: 1 1 calc((100%) - 20px);
+    }
+  }
+
+  .card {
+    padding: 20px;
+  }
+
+  .registration {
+    margin-bottom: 40px;
+
+    &__banner {
+      height: 200px;
+    }
+  }
+
+  .banner {
+    padding: 30px 20px;
+
+    &__title {
+      font-size: 16px;
+      line-height: 20px;
+      margin-bottom: 20px;
+    }
+  }
+
+  .popup {
+    &__content {
+      width: 200px;
+      min-height: 270px;
+      padding: 20px;
+    }
+
+    &__close {
+      top: 10px;
+      right: 10px;
+    }
+  }
+}
